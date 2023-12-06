@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+header {
+    color: #fff;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    padding: 1rem auto;
+    align-items: center;
+    background-color: #000;
+}
+
+.menu {
+    font-size: 2.6rem;
+    padding: 3rem 0 0 3rem;
+    color: #fff;
+}
+
+.header-texto h1 {
+    margin: 2rem 2rem;
+    letter-spacing: 1rem;
+    display: inline;
+}
+
+.header-texto p {
+    margin: 2rem 8rem;
+    text-align: left;
+}
+
+.header-links {
+    margin: 2rem 4rem;
+    justify-self: end;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container-section {
+    background-color: #999;
+    display: flex;
+    color: white;
+    min-height: 60vh;
+    background-image: url(../Images/mulheres.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: contain;
+    padding-top: 5rem;
+}
+
+.section-texto h1 {
+    color: #000;
+    margin: 2rem 6rem;
+    font-weight: 600;
+}
+
+.section-texto p {
+    max-width: 60%;
+    line-height: 30px;
+    margin: 6rem;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.btn {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 4rem;
+    padding: 15px 30px;
+    color: #fff;
+    background: linear-gradient(45deg, #000, #000);
+    border: 2px solid #000;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    text-decoration: none;
+    margin-left: 6rem;
+}
+
+.btn:hover {
+    color: #000;
+    font-weight: 800;
+    background: linear-gradient(45deg, #ffd700, #ff8c00);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    transform: translateY(-3px);
+}
+
+.card .card-imagem{
+    filter: grayscale(40%);
+}
+
+.card-body .btn {
+    margin: 2.5rem 0;
+    padding: 5px 10px;
+}
+
+.card-body h5 {
+    margin: 10px 0px;
+    font-size: 2rem;
+}
+
+.paragrafo {
+    font-size: 1.3rem;
+}
