@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Cousine', monospace;
 }
 
 html {
@@ -79,7 +79,7 @@ a {
     display: inline-block;
     text-align: center;
     margin-bottom: 4rem;
-    padding: 15px 30px;
+    padding: 10px 10px;
     color: #fff;
     background: linear-gradient(45deg, #000, #000);
     border: 2px solid #000;
@@ -104,7 +104,7 @@ a {
 
 .card-body .btn {
     margin: 2.5rem 0;
-    padding: 5px 10px;
+    padding: 10px 10px;
 }
 
 .card-body h5 {
@@ -114,4 +114,117 @@ a {
 
 .paragrafo {
     font-size: 1.3rem;
+}
+
+footer {
+    padding: 2rem 0rem;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 15vh;
+    align-items: center;
+    background-color: #000;
+}
+
+.footer-texto {
+    padding-bottom: 2rem;
+}
+
+.footer a {
+    display: flex;
+    padding-bottom: 1.5rem;
+}
+
+.footer-icon {
+    font-size: 2rem;
+}
+
+@media (max-width: 375px) {
+    body {
+        font-size: 1.4rem;
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    .menu {
+        padding: 2rem;
+    }
+
+    .container-section {
+        flex-direction: column;
+        min-height: auto;
+        background-position: center bottom;
+    }
+
+    .section-texto h1 {
+        margin: 2rem;
+    }
+
+    .section-texto p {
+        max-width: 100%;
+        margin: 2rem;
+        font-size: 16px;
+    }
+
+    .btn {
+        margin: 1rem;
+        font-size: 1.4rem;
+    }
+
+    .card .card-imagem {
+        filter: grayscale(0%);
+        max-width: 100%;
+        height: auto;
+    }
+
+    .card-body .btn {
+        margin: 1.5rem 0;
+    }
+
+    .card-body h5 {
+        font-size: 1.8rem;
+    }
+
+    .paragrafo {
+        font-size: 1.2rem;
+    }
+
+    footer {
+        height: auto;
+    }
+
+    .footer-icon {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 250px) {
+    header {
+        display: grid;
+        grid-template-rows: auto auto;
+        grid-template-columns: 1fr;
+        align-items: center;
+        text-align: center;
+    }
+
+    .menu {
+        grid-row: 1;
+        padding: 1rem;
+    }
+
+    .header-links {
+        grid-row: 2;
+        grid-column: 1;
+        text-align: center;
+    }
+
+    .header-texto h1 {
+        margin: 1rem;
+    }
+
+    .header-texto p {
+        margin: 1rem;
+    }
 }
