@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="69936914-940C-1493-1F04-438DB2CB6116" name="T_LGN">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:47 UTC</createdTime>
+<generatorID>D8D93995-4834-DC8A-8C36-AD6AB6D8B9F6</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<abbreviation>LOGIN</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_PSSA_nr_cpf" id="F4C623D8-BD3D-65AD-672B-413947A23FE8">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:47 UTC</createdTime>
+<generatorID>9763E8F2-C479-F62B-50E6-C740E28452C4</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="865C5451-622D-576F-7436-A07CE59E6ECC" referredColumn="6E9F92E3-4459-EB5F-A430-E00A60AD2016"/>
+</associations>
+</Column>
+<Column name="ps_psswrd" id="B2F0924A-4C64-EB27-C433-85E0CAE78FC0">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:47 UTC</createdTime>
+<generatorID>3C87E7E5-8647-17B4-57D1-7E8CCCF9B77E</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8098CB0B-EC51-9982-A76A-1DADF30B71D1" name="T_LGN_PK">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:47 UTC</createdTime>
+<generatorID>8DC216E3-E328-DBC5-A0AB-246D3A7E41EC</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F4C623D8-BD3D-65AD-672B-413947A23FE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D6B9ECB1-2608-9BED-9DDB-CAA9F637D412" name="T_PSSA_FK">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:48 UTC</createdTime>
+<generatorID>6EC77041-4557-71CE-3831-0F8B98377293</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F4C623D8-BD3D-65AD-672B-413947A23FE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

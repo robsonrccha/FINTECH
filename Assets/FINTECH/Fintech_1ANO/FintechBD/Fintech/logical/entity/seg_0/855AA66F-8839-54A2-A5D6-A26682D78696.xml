@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="855AA66F-8839-54A2-A5D6-A26682D78696" name="T_SPT">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:37:37 UTC</createdTime>
+<ownerDesignName>Fintech</ownerDesignName>
+<engineerTo>
+<item key="C651BE54-F97D-7840-F6CD-02B8EDB4CDFF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>SUPORTE</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_cpf" id="3C925746-E868-320D-B348-4E29566366A7">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:39:46 UTC</createdTime>
+<generatorID>653CCE3C-A2DB-DF6F-FFE6-AD8065C1978F</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<engineerTo>
+<item key="C651BE54-F97D-7840-F6CD-02B8EDB4CDFF" value="true"/>
+</engineerTo>
+<referedAttribute>C7E0ACFC-C565-D672-5961-6D11748CD530</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_bnc" id="E9749C98-1193-46C9-CF9D-0847EC4E1DBA">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:39:46 UTC</createdTime>
+<generatorID>653CCE3C-A2DB-DF6F-FFE6-AD8065C1978F</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<engineerTo>
+<item key="C651BE54-F97D-7840-F6CD-02B8EDB4CDFF" value="true"/>
+</engineerTo>
+<referedAttribute>B1D01B92-C949-ABDC-511A-17D5D0BDC95E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>02</dataTypePrecision>
+<ownDataTypeParameters>,02,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cnta" id="FA7EDD17-39DD-6928-6EA2-847EEE47944A">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 17:05:29 UTC</createdTime>
+<generatorID>653CCE3C-A2DB-DF6F-FFE6-AD8065C1978F</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<engineerTo>
+<item key="C651BE54-F97D-7840-F6CD-02B8EDB4CDFF" value="true"/>
+</engineerTo>
+<referedAttribute>8E01ECC6-CF0C-0A3B-B018-46ABC6769B8E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_protocolo" id="43DBEF6B-26EE-AC67-15B2-9AB1F21E72C7">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:37:55 UTC</createdTime>
+<ownerDesignName>Fintech</ownerDesignName>
+<engineerTo>
+<item key="C651BE54-F97D-7840-F6CD-02B8EDB4CDFF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_atdmto" id="F744929A-92F1-4AC6-0FD5-8CE7587907A8">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:38:04 UTC</createdTime>
+<ownerDesignName>Fintech</ownerDesignName>
+<engineerTo>
+<item key="C651BE54-F97D-7840-F6CD-02B8EDB4CDFF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5DA520E2-6A3F-E589-AEB6-6E4588E67041" name="T_SPT PK">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:38:01 UTC</createdTime>
+<ownerDesignName>Fintech</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C651BE54-F97D-7840-F6CD-02B8EDB4CDFF" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>3C925746-E868-320D-B348-4E29566366A7</newElementsIDs>
+<usedAttributes>
+<attributeRef>3C925746-E868-320D-B348-4E29566366A7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

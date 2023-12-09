@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="95336F09-38C0-6270-1441-503FE5A69395" name="dados">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:48 UTC</createdTime>
+<ownerDesignName>Fintech</ownerDesignName>
+<mandatory>true</mandatory>
+<reverseArc>true</reverseArc>
+<table>47720106-0B98-00E4-0B33-4CDA1FA20245</table>
+<discriminatorColumn>C6EAA791-678F-CC66-1D07-676658B8627E</discriminatorColumn>
+<fkeys>
+<fkeyID>0DA4AEF3-EDB8-200E-B5BC-069C4FCD4062</fkeyID>
+<fkeyID>6A7177C0-C685-A3D7-62C7-A7671DD6F16B</fkeyID>
+</fkeys>
+</FKArc>

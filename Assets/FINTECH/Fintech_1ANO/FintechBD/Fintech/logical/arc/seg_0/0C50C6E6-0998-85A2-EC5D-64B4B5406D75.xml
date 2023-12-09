@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="0C50C6E6-0998-85A2-EC5D-64B4B5406D75" name="dados">
+<createdBy>robso</createdBy>
+<createdTime>2023-10-31 18:34:09 UTC</createdTime>
+<ownerDesignName>Fintech</ownerDesignName>
+<engineerTo>
+<item key="C651BE54-F97D-7840-F6CD-02B8EDB4CDFF" value="true"/>
+</engineerTo>
+<entity>9DE39190-450D-33E3-3EEB-8DE5E9BD1312</entity>
+<relations>
+<relationID>E3D822CC-E3ED-5547-CA28-58A24358D82B</relationID>
+<relationID>4E816A0B-15BA-21E8-3F27-3D0043B3305D</relationID>
+</relations>
+</Arc>

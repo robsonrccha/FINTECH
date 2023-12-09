@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7B644E8A-2C24-5623-6E9B-05A38341EE0C" name="T_TP_INVTO">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:47 UTC</createdTime>
+<generatorID>969704E7-436F-FA7F-216D-A39D7D5C0FC2</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<abbreviation>TIPO_INVESTIMENTO</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_tp_invto" id="28E00A01-6C87-C54C-B9FF-EEB196D4A078">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:47 UTC</createdTime>
+<generatorID>9EE3974D-8A38-75D0-0794-29B09244B89F</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_INVTO_cd_invmto" id="8AE34414-3738-687C-A0C8-06013AE3E6AC">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:47 UTC</createdTime>
+<generatorID>A120E58C-8982-89C2-E032-0F718EFB6CC8</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0F53A395-BBBD-1C82-DA21-8E5B4C12E4F5" referredColumn="BB6B99AF-2ED8-778F-F484-24DA1B46B0D7"/>
+</associations>
+</Column>
+<Column name="ds_tp_invto" id="09549BCD-BB92-B8F5-692E-306DE9E63883">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:47 UTC</createdTime>
+<generatorID>8ED53F3D-429E-5DF4-A4BB-16FEEA1E21F2</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_resgate" id="A3B2F91C-9038-3BEC-C185-FE4373F4F319">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:47 UTC</createdTime>
+<generatorID>1FD54F53-C33C-CD36-8402-F2B4D5ECFE82</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8D2C7FA7-88D2-6BAD-DE3C-119EF90F0EC0" name="T_INVTO_PKv1">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:47 UTC</createdTime>
+<generatorID>5B85D205-2F0F-61A6-627E-C5BA1A967DB4</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28E00A01-6C87-C54C-B9FF-EEB196D4A078"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B26CCC0-0CC5-F046-BC5A-E112723A78E1" name="T_INVTO_FK">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:47 UTC</createdTime>
+<generatorID>855CAAAF-CA22-D0B2-C27A-AF30BE87DDE1</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8AE34414-3738-687C-A0C8-06013AE3E6AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

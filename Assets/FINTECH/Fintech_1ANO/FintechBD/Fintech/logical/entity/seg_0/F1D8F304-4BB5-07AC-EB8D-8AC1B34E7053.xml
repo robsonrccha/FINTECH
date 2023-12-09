@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F1D8F304-4BB5-07AC-EB8D-8AC1B34E7053" name="T_INVTO">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-01 15:16:49 UTC</createdTime>
+<ownerDesignName>Fintech</ownerDesignName>
+<engineerTo>
+<item key="C651BE54-F97D-7840-F6CD-02B8EDB4CDFF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>INVESTIMENTO</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_invmto" id="519729B4-F3A0-EE02-C8B6-98DF71CC2697">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-01 15:17:30 UTC</createdTime>
+<ownerDesignName>Fintech</ownerDesignName>
+<engineerTo>
+<item key="C651BE54-F97D-7840-F6CD-02B8EDB4CDFF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cpf" id="1203E97E-83C7-E46D-8AF8-EC71AA15DFB8">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:39:11 UTC</createdTime>
+<generatorID>E85A35E7-6CDD-AC8B-399C-10D1D31C63C8</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<engineerTo>
+<item key="C651BE54-F97D-7840-F6CD-02B8EDB4CDFF" value="true"/>
+</engineerTo>
+<referedAttribute>C7E0ACFC-C565-D672-5961-6D11748CD530</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_bnc" id="5C39D35A-4B76-C832-35A1-B58350A926FF">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-01 15:26:54 UTC</createdTime>
+<generatorID>E85A35E7-6CDD-AC8B-399C-10D1D31C63C8</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<engineerTo>
+<item key="C651BE54-F97D-7840-F6CD-02B8EDB4CDFF" value="true"/>
+</engineerTo>
+<referedAttribute>B1D01B92-C949-ABDC-511A-17D5D0BDC95E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cnta" id="D5E37E77-A36A-FB42-B205-BCDC7C598FEF">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 17:05:29 UTC</createdTime>
+<generatorID>E85A35E7-6CDD-AC8B-399C-10D1D31C63C8</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<engineerTo>
+<item key="C651BE54-F97D-7840-F6CD-02B8EDB4CDFF" value="true"/>
+</engineerTo>
+<referedAttribute>8E01ECC6-CF0C-0A3B-B018-46ABC6769B8E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_invmto" id="118D8EFF-F992-7302-02FF-456C34641FD5">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-01 15:17:54 UTC</createdTime>
+<ownerDesignName>Fintech</ownerDesignName>
+<engineerTo>
+<item key="C651BE54-F97D-7840-F6CD-02B8EDB4CDFF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,15,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EF62A098-D6A1-C7CE-653D-A360839A5905" name="T_INVTO PK">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-01 15:18:46 UTC</createdTime>
+<ownerDesignName>Fintech</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C651BE54-F97D-7840-F6CD-02B8EDB4CDFF" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>519729B4-F3A0-EE02-C8B6-98DF71CC2697</newElementsIDs>
+<usedAttributes>
+<attributeRef>519729B4-F3A0-EE02-C8B6-98DF71CC2697</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

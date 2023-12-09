@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BAAD2F4F-E289-64DA-E8D8-384633032555" name="T_TP_DPSA">
+<createdBy>robso</createdBy>
+<createdTime>2023-10-31 18:17:39 UTC</createdTime>
+<ownerDesignName>Fintech</ownerDesignName>
+<engineerTo>
+<item key="C651BE54-F97D-7840-F6CD-02B8EDB4CDFF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>TIPO_DESPESA</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_tp_dpsa" id="EBFD950D-D52F-D3A8-E222-627FB160E5E5">
+<createdBy>robso</createdBy>
+<createdTime>2023-10-31 18:18:07 UTC</createdTime>
+<ownerDesignName>Fintech</ownerDesignName>
+<engineerTo>
+<item key="C651BE54-F97D-7840-F6CD-02B8EDB4CDFF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_lcmt" id="A54E7802-12B9-C58D-78CC-7FE088E4694B">
+<createdBy>robso</createdBy>
+<createdTime>2023-10-31 18:52:02 UTC</createdTime>
+<generatorID>8596785D-2E96-E481-564C-0013B9053940</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<engineerTo>
+<item key="C651BE54-F97D-7840-F6CD-02B8EDB4CDFF" value="true"/>
+</engineerTo>
+<referedAttribute>125D68A2-70D1-309C-7FED-F91E3E1B9C7D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>02</dataTypePrecision>
+<ownDataTypeParameters>,02,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_dpsa" id="37ADB9C1-F3D4-54E6-87C4-D9DDA0DDDE7B">
+<createdBy>robso</createdBy>
+<createdTime>2023-10-31 18:52:02 UTC</createdTime>
+<generatorID>8596785D-2E96-E481-564C-0013B9053940</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<engineerTo>
+<item key="C651BE54-F97D-7840-F6CD-02B8EDB4CDFF" value="true"/>
+</engineerTo>
+<referedAttribute>AF6FA558-EB8E-E359-C729-7C8C0E20BB8E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>02</dataTypePrecision>
+<ownDataTypeParameters>,02,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_tp_dpsa" id="38180E0A-D2B7-DC6A-5A7B-CB366491F801">
+<createdBy>robso</createdBy>
+<createdTime>2023-10-31 18:32:10 UTC</createdTime>
+<ownerDesignName>Fintech</ownerDesignName>
+<engineerTo>
+<item key="C651BE54-F97D-7840-F6CD-02B8EDB4CDFF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E24956D7-FD43-409D-EA48-E70A9E1371E0" name="T_TP_DPSA PK">
+<createdBy>robso</createdBy>
+<createdTime>2023-10-31 18:21:26 UTC</createdTime>
+<ownerDesignName>Fintech</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C651BE54-F97D-7840-F6CD-02B8EDB4CDFF" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>EBFD950D-D52F-D3A8-E222-627FB160E5E5</newElementsIDs>
+<usedAttributes>
+<attributeRef>EBFD950D-D52F-D3A8-E222-627FB160E5E5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

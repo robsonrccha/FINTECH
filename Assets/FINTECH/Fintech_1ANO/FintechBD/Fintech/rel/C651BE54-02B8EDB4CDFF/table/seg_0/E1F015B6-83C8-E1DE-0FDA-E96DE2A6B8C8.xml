@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E1F015B6-83C8-E1DE-0FDA-E96DE2A6B8C8" name="T_RCTA">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:47 UTC</createdTime>
+<generatorID>A7FC7998-4E5D-F385-1714-134CFCC7BA6C</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<abbreviation>RECEITA</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_rcta" id="9C49AB87-F19E-0A93-6316-2BA4A8E68168">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:47 UTC</createdTime>
+<generatorID>A0B2A79B-5C6E-7FA8-B0C3-5EEAAAE10D5E</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_FNC_LCMT_cd_lcmt" id="01126FD0-D055-1B09-F55A-2E9A840D7F67">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:47 UTC</createdTime>
+<generatorID>2FCF423A-989B-D147-536E-65C9D436BD5C</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6A7177C0-C685-A3D7-62C7-A7671DD6F16B" referredColumn="C6EAA791-678F-CC66-1D07-676658B8627E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="47F4CE8D-C5B9-24C7-CA6E-F95313C17EAB" name="T_FNC_RCTA_PK">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:47 UTC</createdTime>
+<generatorID>BEADDB4F-75C1-68BA-71A0-45011501C721</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C49AB87-F19E-0A93-6316-2BA4A8E68168"/>
+<colUsage columnID="01126FD0-D055-1B09-F55A-2E9A840D7F67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="41880151-0DD8-EE93-BC96-4BA3C1868DD1" name="T_FNC_RCTA__IDX">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:48 UTC</createdTime>
+<ownerDesignName>Fintech</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>4E816A0B-15BA-21E8-3F27-3D0043B3305D</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="01126FD0-D055-1B09-F55A-2E9A840D7F67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C5B1E8A1-03FB-C9D5-B750-03487FF0DC38" name="T_LCMT_FKv1">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:48 UTC</createdTime>
+<generatorID>4E816A0B-15BA-21E8-3F27-3D0043B3305D</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01126FD0-D055-1B09-F55A-2E9A840D7F67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

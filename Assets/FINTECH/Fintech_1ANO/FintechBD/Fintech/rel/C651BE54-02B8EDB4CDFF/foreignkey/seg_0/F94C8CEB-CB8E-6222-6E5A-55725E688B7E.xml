@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F94C8CEB-CB8E-6222-6E5A-55725E688B7E" containerWithKeyObject="1C6FFC85-9EB6-A818-0621-E5B807F0AA27" localFKIndex="BB5179A1-7210-46F6-9E71-FD9D53AF1E63" name="T_TP_RCTA_FK">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:47 UTC</createdTime>
+<generatorID>89ACC6F2-197A-754C-A570-E1F72DB1FEAD</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<referredTableLongName>T_RCTA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E1F015B6-83C8-E1DE-0FDA-E96DE2A6B8C8</referredTableID>
+<keyObject>47F4CE8D-C5B9-24C7-CA6E-F95313C17EAB</keyObject>
+<referredKeyID>47F4CE8D-C5B9-24C7-CA6E-F95313C17EAB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_rcta,T_FNC_LCMT_cd_lcmt</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

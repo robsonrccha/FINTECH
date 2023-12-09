@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="47720106-0B98-00E4-0B33-4CDA1FA20245" name="T_LCMT">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:47 UTC</createdTime>
+<generatorID>9DE39190-450D-33E3-3EEB-8DE5E9BD1312</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<abbreviation>LANCAMENTO</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_lcmt" id="C6EAA791-678F-CC66-1D07-676658B8627E">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:47 UTC</createdTime>
+<generatorID>14648EEA-7137-3F6B-C40B-D9E90BA929D0</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_LANCAMENTO_cd_lcmt</notNullConstraintName>
+</Column>
+<Column name="T_CNTA_nr_cpf" id="D3957BA0-FE08-9A4D-59F6-042595EBFDDD">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:56:23 UTC</createdTime>
+<ownerDesignName>Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_LANCAMENTO_T_PSSA_nr_cpf</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="0CF6ED09-F7DB-3755-9169-099FAE24AB21" referredColumn="B687CD6C-4DE2-5CD8-12FB-1FFF847CBCF0"/>
+</associations>
+</Column>
+<Column name="T_BNC_cd_bnc" id="115CECF2-9546-3922-F926-C09D6E2B3436">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:56:23 UTC</createdTime>
+<ownerDesignName>Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_LANCAMENTO_T_BNC_cd_bnc</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="0CF6ED09-F7DB-3755-9169-099FAE24AB21" referredColumn="E68C3FE0-B0C1-77AF-2CB1-36AE6D851B3A"/>
+</associations>
+</Column>
+<Column name="vl_lcmnt" id="A5849242-2771-14FD-D252-5E10C3DEA8E9">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:47 UTC</createdTime>
+<generatorID>2E7CC79B-5499-D39B-6C6A-58A7EF2AC54C</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_LANCAMENTO_vl_lcmnt</notNullConstraintName>
+</Column>
+<Column name="dt_lcmt" id="EC626AE9-4DF6-4960-FB2C-ABE78216D66A">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:47 UTC</createdTime>
+<generatorID>F8CE3528-A5D7-14E4-479D-A5F895F51A2D</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_LANCAMENTO_dt_lcmt</notNullConstraintName>
+</Column>
+<Column name="ds_lcmt" id="0B42C182-6866-1129-B9B9-93C791D691B7">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:47 UTC</createdTime>
+<generatorID>21F265F6-2EE8-E824-2EC9-526976708A07</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_LANCAMENTO_ds_lcmt</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C21B3645-DCFE-4794-4046-646FC75F766B" name="T_LCMT_PK">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:47 UTC</createdTime>
+<generatorID>17C3509A-F687-4572-E141-EA03038786A2</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6EAA791-678F-CC66-1D07-676658B8627E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C566032-7142-56B5-47A9-2E26F3D4AEFC" name="T_CNTA_FKv1">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:47 UTC</createdTime>
+<generatorID>9EA01978-488D-6EED-CEB4-4DBD1BD207D2</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3957BA0-FE08-9A4D-59F6-042595EBFDDD"/>
+<colUsage columnID="115CECF2-9546-3922-F926-C09D6E2B3436"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

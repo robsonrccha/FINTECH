@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="serv1" directorySegmentName="seg_0" id="89ACC6F2-197A-754C-A570-E1F72DB1FEAD">
+<createdBy>robso</createdBy>
+<createdTime>2023-10-31 18:44:17 UTC</createdTime>
+<ownerDesignName>Fintech</ownerDesignName>
+<engineerTo>
+<item key="C651BE54-F97D-7840-F6CD-02B8EDB4CDFF" value="true"/>
+</engineerTo>
+<sourcePk>BEADDB4F-75C1-68BA-71A0-45011501C721</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A7FC7998-4E5D-F385-1714-134CFCC7BA6C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CFA473B7-DE75-6E52-EFD5-3EEFAB158443</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

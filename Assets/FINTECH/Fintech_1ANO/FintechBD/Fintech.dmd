@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Fintech" id="10EEE772-3441-8321-839D-251B13343378" version="3.5">
+<createdBy>robso</createdBy>
+<createdTime>2023-10-30 12:30:35 UTC</createdTime>
+<ownerDesignName>Fintech</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>10EEE772-3441-8321-839D-251B13343378</designId>
+</OSDM_Design>

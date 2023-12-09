@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="14F849F1-7308-490B-D694-5346360B92BA" name="T_CNTA">
+<createdBy>robso</createdBy>
+<createdTime>2023-10-31 16:39:52 UTC</createdTime>
+<ownerDesignName>Fintech</ownerDesignName>
+<engineerTo>
+<item key="C651BE54-F97D-7840-F6CD-02B8EDB4CDFF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>CONTA</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_cnta" id="87DF14E6-EA23-870F-B610-06705DC5EE24">
+<createdBy>robso</createdBy>
+<createdTime>2023-10-31 16:40:12 UTC</createdTime>
+<ownerDesignName>Fintech</ownerDesignName>
+<engineerTo>
+<item key="C651BE54-F97D-7840-F6CD-02B8EDB4CDFF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cpf" id="B2C2900A-95AA-9E2F-2786-C1C1407A9E27">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 17:05:22 UTC</createdTime>
+<generatorID>DE9DBE8A-E2E1-2DFC-6260-70353E2AB798</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<engineerTo>
+<item key="C651BE54-F97D-7840-F6CD-02B8EDB4CDFF" value="true"/>
+</engineerTo>
+<referedAttribute>9EB643B0-33A1-A716-11B8-2D39567D4D63</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_digito" id="9DC77E5E-C956-7719-4A74-C337502B9FC0">
+<createdBy>robso</createdBy>
+<createdTime>2023-10-31 16:40:33 UTC</createdTime>
+<ownerDesignName>Fintech</ownerDesignName>
+<engineerTo>
+<item key="C651BE54-F97D-7840-F6CD-02B8EDB4CDFF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_saldo" id="6A36AEF1-921B-C241-4AE8-817C92727E27">
+<createdBy>robso</createdBy>
+<createdTime>2023-10-31 16:40:54 UTC</createdTime>
+<ownerDesignName>Fintech</ownerDesignName>
+<engineerTo>
+<item key="C651BE54-F97D-7840-F6CD-02B8EDB4CDFF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,15,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="624589DB-5A2C-14E4-0C5A-B196E2233B28" name="T_CNTA PK">
+<createdBy>robso</createdBy>
+<createdTime>2023-10-31 16:43:51 UTC</createdTime>
+<ownerDesignName>Fintech</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C651BE54-F97D-7840-F6CD-02B8EDB4CDFF" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>87DF14E6-EA23-870F-B610-06705DC5EE24</newElementsIDs>
+<usedAttributes>
+<attributeRef>87DF14E6-EA23-870F-B610-06705DC5EE24</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

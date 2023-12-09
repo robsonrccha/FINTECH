@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A15996B2-F671-6F17-95BF-D1BEE12344F0" name="T_TP_DPSA">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:47 UTC</createdTime>
+<generatorID>BAAD2F4F-E289-64DA-E8D8-384633032555</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<abbreviation>TIPO_DESPESA</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_tp_dpsa" id="9B364B5C-301E-3357-8CDF-DCAF606E099C">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:47 UTC</createdTime>
+<generatorID>EBFD950D-D52F-D3A8-E222-627FB160E5E5</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_LCMT_cd_lcmt" id="1E22E0B6-7C72-04D6-48A7-9892653A6EDE">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:47 UTC</createdTime>
+<generatorID>A54E7802-12B9-C58D-78CC-7FE088E4694B</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D670ED5B-5317-2D68-EE9B-248F22FE9314" referredColumn="9D236926-8583-A292-8599-2BAC963DDA7E"/>
+</associations>
+</Column>
+<Column name="T_DPSA_cd_dpsa" id="B5AAAB9F-AAAB-88E1-098F-50FEDBECB4BC">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:47 UTC</createdTime>
+<generatorID>37ADB9C1-F3D4-54E6-87C4-D9DDA0DDDE7B</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D670ED5B-5317-2D68-EE9B-248F22FE9314" referredColumn="1331C842-C337-97FC-8E0A-2CCCAC62AC19"/>
+</associations>
+</Column>
+<Column name="ds_tp_dpsa" id="6EC57F5B-72A3-94EA-0843-0157C3FBD337">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:47 UTC</createdTime>
+<generatorID>38180E0A-D2B7-DC6A-5A7B-CB366491F801</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CC372E2B-F060-7520-CD45-48572B2B0583" name="T_TP_DPSA_PK">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:47 UTC</createdTime>
+<generatorID>E24956D7-FD43-409D-EA48-E70A9E1371E0</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B364B5C-301E-3357-8CDF-DCAF606E099C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="79D68DB1-49AE-EA4C-3A92-5CA1F269EA05" name="T_DPSA_FK">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:47 UTC</createdTime>
+<generatorID>8596785D-2E96-E481-564C-0013B9053940</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5AAAB9F-AAAB-88E1-098F-50FEDBECB4BC"/>
+<colUsage columnID="1E22E0B6-7C72-04D6-48A7-9892653A6EDE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

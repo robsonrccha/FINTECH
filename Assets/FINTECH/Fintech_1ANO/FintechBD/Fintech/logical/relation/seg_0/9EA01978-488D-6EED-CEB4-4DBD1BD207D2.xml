@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="poder" directorySegmentName="seg_0" id="9EA01978-488D-6EED-CEB4-4DBD1BD207D2">
+<createdBy>robso</createdBy>
+<createdTime>2023-10-31 17:18:29 UTC</createdTime>
+<ownerDesignName>Fintech</ownerDesignName>
+<engineerTo>
+<item key="C651BE54-F97D-7840-F6CD-02B8EDB4CDFF" value="true"/>
+</engineerTo>
+<sourcePk>624589DB-5A2C-14E4-0C5A-B196E2233B28</sourcePk>
+<dominantRole>14F849F1-7308-490B-D694-5346360B92BA</dominantRole>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>14F849F1-7308-490B-D694-5346360B92BA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9DE39190-450D-33E3-3EEB-8DE5E9BD1312</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

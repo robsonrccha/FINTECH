@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="641FFCB1-EFA8-6D11-E9BE-B08892DE1F06" name="T_CRT">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-01 02:10:19 UTC</createdTime>
+<ownerDesignName>Fintech</ownerDesignName>
+<engineerTo>
+<item key="C651BE54-F97D-7840-F6CD-02B8EDB4CDFF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>CARTAO</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_cartao" id="66705BCE-53B0-1057-3BC4-018E9B6F7F77">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-01 02:10:45 UTC</createdTime>
+<ownerDesignName>Fintech</ownerDesignName>
+<engineerTo>
+<item key="C651BE54-F97D-7840-F6CD-02B8EDB4CDFF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cnta" id="E1418B0F-E666-8233-372C-5EC167A32F6A">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 17:05:29 UTC</createdTime>
+<generatorID>9394E210-4C8D-7B74-3576-A8A2B11B7860</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<engineerTo>
+<item key="C651BE54-F97D-7840-F6CD-02B8EDB4CDFF" value="true"/>
+</engineerTo>
+<referedAttribute>87DF14E6-EA23-870F-B610-06705DC5EE24</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_vencimento" id="01407B70-5078-A90D-3C03-447A89D62704">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-01 02:12:00 UTC</createdTime>
+<ownerDesignName>Fintech</ownerDesignName>
+<engineerTo>
+<item key="C651BE54-F97D-7840-F6CD-02B8EDB4CDFF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cvv" id="1397E2C4-42A3-1EF0-9FB9-A8063B63421F">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-01 02:12:35 UTC</createdTime>
+<ownerDesignName>Fintech</ownerDesignName>
+<engineerTo>
+<item key="C651BE54-F97D-7840-F6CD-02B8EDB4CDFF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_cartao" id="E2E5FDEF-91A5-A5E5-78C8-A1679D3E9734">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-01 02:13:06 UTC</createdTime>
+<ownerDesignName>Fintech</ownerDesignName>
+<engineerTo>
+<item key="C651BE54-F97D-7840-F6CD-02B8EDB4CDFF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_tipo_cartao" id="E83E4C78-0678-9E86-432F-FD8E8EA847D2">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-01 02:15:07 UTC</createdTime>
+<ownerDesignName>Fintech</ownerDesignName>
+<engineerTo>
+<item key="C651BE54-F97D-7840-F6CD-02B8EDB4CDFF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="47AB5982-6E79-E7FB-7A94-C1449135352A" name="T_CRT PK">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-01 02:11:56 UTC</createdTime>
+<ownerDesignName>Fintech</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C651BE54-F97D-7840-F6CD-02B8EDB4CDFF" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>66705BCE-53B0-1057-3BC4-018E9B6F7F77,9394E210-4C8D-7B74-3576-A8A2B11B7860</newElementsIDs>
+<usedAttributes>
+<attributeRef>66705BCE-53B0-1057-3BC4-018E9B6F7F77</attributeRef>
+<attributeRef>E1418B0F-E666-8233-372C-5EC167A32F6A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

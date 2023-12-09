@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8CAB8D0C-484F-85F5-C35C-68E916A38A8E" name="T_DPSA">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:47 UTC</createdTime>
+<generatorID>D2DC9FFB-EBE0-AFDE-63D1-07CB446AB8A3</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<abbreviation>DESPESA</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_dpsa" id="1331C842-C337-97FC-8E0A-2CCCAC62AC19">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:47 UTC</createdTime>
+<generatorID>AF6FA558-EB8E-E359-C729-7C8C0E20BB8E</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_LCMT_cd_lcmt" id="9D236926-8583-A292-8599-2BAC963DDA7E">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:47 UTC</createdTime>
+<generatorID>125D68A2-70D1-309C-7FED-F91E3E1B9C7D</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0DA4AEF3-EDB8-200E-B5BC-069C4FCD4062" referredColumn="C6EAA791-678F-CC66-1D07-676658B8627E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9B48CE9F-8D83-1D89-582B-91A37095FE1D" name="T_DPSA_PK">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:47 UTC</createdTime>
+<generatorID>A87EC578-4D2D-C868-4EA4-02D25D6C9302</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1331C842-C337-97FC-8E0A-2CCCAC62AC19"/>
+<colUsage columnID="9D236926-8583-A292-8599-2BAC963DDA7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="10E0415B-390D-F578-8121-92B0B92708EB" name="T_DPSA_IDX">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:48 UTC</createdTime>
+<ownerDesignName>Fintech</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>E3D822CC-E3ED-5547-CA28-58A24358D82B</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="9D236926-8583-A292-8599-2BAC963DDA7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D7770A50-3734-47E5-DDE8-BA69BC936618" name="T_LCMT_FK">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:48 UTC</createdTime>
+<generatorID>E3D822CC-E3ED-5547-CA28-58A24358D82B</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D236926-8583-A292-8599-2BAC963DDA7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

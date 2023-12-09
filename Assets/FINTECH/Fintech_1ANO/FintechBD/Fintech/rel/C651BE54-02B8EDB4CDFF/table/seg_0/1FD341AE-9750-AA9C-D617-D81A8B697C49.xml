@@ -1,0 +1,177 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1FD341AE-9750-AA9C-D617-D81A8B697C49" name="T_BNC">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:47 UTC</createdTime>
+<generatorID>DDD19257-DD37-7A1D-055A-1229345578C6</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<abbreviation>BANCO</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_bnc" id="CF64BB0B-48D7-6AE9-4DB1-CA193FF93996">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:47 UTC</createdTime>
+<generatorID>B1D01B92-C949-ABDC-511A-17D5D0BDC95E</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_BANCO_cd_bnc</notNullConstraintName>
+</Column>
+<Column name="T_PSSA_nr_cpf" id="03983EEA-EEEF-924F-596E-A1D4B5081375">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:47 UTC</createdTime>
+<generatorID>C7E0ACFC-C565-D672-5961-6D11748CD530</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_BANCO_T_FNC_PSSA_nr_cpf</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="2C605392-D510-9DF6-B447-36A5AFA3E565" referredColumn="6E9F92E3-4459-EB5F-A430-E00A60AD2016"/>
+</associations>
+</Column>
+<Column name="T_BNC_nr_cpf" id="A0141B51-4896-0CDD-B88E-607C079D1E43">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 17:18:00 UTC</createdTime>
+<ownerDesignName>Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_BANCO_T_FNC_CNTA_T_FNC_PSSA_nr_cpf</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="F0B512B9-180E-C281-2305-27350D08AA4C" referredColumn="B687CD6C-4DE2-5CD8-12FB-1FFF847CBCF0"/>
+</associations>
+</Column>
+<Column name="T_BNC_cd_bnc" id="212FCDA2-D6D5-6B8E-0CE0-8FF81FF51871">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 17:18:00 UTC</createdTime>
+<ownerDesignName>Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_BANCO_T_FNC_CNTA_T_FNC_BNC_cd_bnc</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="F0B512B9-180E-C281-2305-27350D08AA4C" referredColumn="E68C3FE0-B0C1-77AF-2CB1-36AE6D851B3A"/>
+</associations>
+</Column>
+<Column name="nm_bnc" id="5C151609-00F6-5FBA-4A11-81705CD1F01B">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:47 UTC</createdTime>
+<generatorID>CC9DE9D0-F177-8976-86A6-DFD3211DF50C</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_BANCO_nm_bnc</notNullConstraintName>
+</Column>
+<Column name="nr_cnta" id="D64CCCF6-3127-9F09-2413-B4DD87675932">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 17:11:00 UTC</createdTime>
+<generatorID>8E01ECC6-CF0C-0A3B-B018-46ABC6769B8E</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_BANCO_nr_cnta</notNullConstraintName>
+</Column>
+<Column name="ds_tp_cnta" id="CEA4A67A-A82D-D79F-E987-70E3CE35DE56">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:47 UTC</createdTime>
+<generatorID>4E41CEA5-8394-D52B-7F8C-06C67A3ABB16</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0A2D86E9-0156-5FCE-5683-50E250578473" name="T_BNC_PK">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:47 UTC</createdTime>
+<generatorID>25E58948-A5B5-71F7-98DB-6E1CCFEBEDAF</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF64BB0B-48D7-6AE9-4DB1-CA193FF93996"/>
+<colUsage columnID="03983EEA-EEEF-924F-596E-A1D4B5081375"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2E87B620-0D5F-ACA5-0C19-6A8884C3164E" name="T_BNC_nr_cpf_IDX">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 17:18:00 UTC</createdTime>
+<ownerDesignName>Fintech</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>42DCB7B3-D7B1-D826-A123-ED2E70FED158</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="A0141B51-4896-0CDD-B88E-607C079D1E43"/>
+<colUsage columnID="212FCDA2-D6D5-6B8E-0CE0-8FF81FF51871"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A4588B76-5F52-0368-9472-58AD2555651D" name="T_BNC_cd_bnc_IDX">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 17:31:08 UTC</createdTime>
+<ownerDesignName>Fintech</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>42DCB7B3-D7B1-D826-A123-ED2E70FED158</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="A0141B51-4896-0CDD-B88E-607C079D1E43"/>
+<colUsage columnID="212FCDA2-D6D5-6B8E-0CE0-8FF81FF51871"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="41E8B1E5-DC53-7B5F-AF1D-D0B5E9E79974" name="T_PSSA_FKv2">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:47 UTC</createdTime>
+<generatorID>6EABDCE2-8E9E-B4A5-5693-4B4376639E7E</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03983EEA-EEEF-924F-596E-A1D4B5081375"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BADA104D-932A-B686-5E91-904C465162F9" name="T_CNTA_FK">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 17:11:00 UTC</createdTime>
+<generatorID>42DCB7B3-D7B1-D826-A123-ED2E70FED158</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0141B51-4896-0CDD-B88E-607C079D1E43"/>
+<colUsage columnID="212FCDA2-D6D5-6B8E-0CE0-8FF81FF51871"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

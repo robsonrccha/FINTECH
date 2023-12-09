@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="terv3" directorySegmentName="seg_0" id="4E816A0B-15BA-21E8-3F27-3D0043B3305D">
+<createdBy>robso</createdBy>
+<createdTime>2023-10-31 18:33:48 UTC</createdTime>
+<ownerDesignName>Fintech</ownerDesignName>
+<engineerTo>
+<item key="C651BE54-F97D-7840-F6CD-02B8EDB4CDFF" value="true"/>
+</engineerTo>
+<sourcePk>17C3509A-F687-4572-E141-EA03038786A2</sourcePk>
+<arc>0C50C6E6-0998-85A2-EC5D-64B4B5406D75</arc>
+<dominantRole>9DE39190-450D-33E3-3EEB-8DE5E9BD1312</dominantRole>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9DE39190-450D-33E3-3EEB-8DE5E9BD1312</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A7FC7998-4E5D-F385-1714-134CFCC7BA6C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C77E17C6-B6A6-A497-9C93-3ED63CC4DE20" containerWithKeyObject="75164BF8-5DE1-56E4-FB16-75DA5CB657AA" localFKIndex="96413152-CB16-F419-2BD8-D859C26F5278" name="T_CNTA_FKv2">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 17:31:08 UTC</createdTime>
+<generatorID>9394E210-4C8D-7B74-3576-A8A2B11B7860</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<referredTableLongName>T_CNTA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F860225C-9FCC-DFD7-D5F0-E002D84D5294</referredTableID>
+<keyObject>34D81578-7F80-A91E-E078-255B0169CF25</keyObject>
+<referredKeyID>34D81578-7F80-A91E-E078-255B0169CF25</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>T_PSSA_nr_cpf,T_BNC_cd_bnc</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

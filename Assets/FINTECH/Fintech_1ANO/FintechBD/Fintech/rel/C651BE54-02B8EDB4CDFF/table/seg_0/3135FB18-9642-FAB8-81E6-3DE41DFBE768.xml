@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3135FB18-9642-FAB8-81E6-3DE41DFBE768" name="T_SPT">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:47 UTC</createdTime>
+<generatorID>855AA66F-8839-54A2-A5D6-A26682D78696</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<abbreviation>SUPORTE</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_ptclo" id="D2911AB6-E934-6DD6-EDC3-999092B62796">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:47 UTC</createdTime>
+<generatorID>43DBEF6B-26EE-AC67-15B2-9AB1F21E72C7</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_BNC_cd_bnc" id="AAB0F315-9741-38BA-AB5B-82E1471A0F70">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:47 UTC</createdTime>
+<generatorID>E9749C98-1193-46C9-CF9D-0847EC4E1DBA</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D790D007-EEF4-520F-6B9C-292B159C7146" referredColumn="CF64BB0B-48D7-6AE9-4DB1-CA193FF93996"/>
+</associations>
+</Column>
+<Column name="T_BNC_nr_cpf" id="DE07B83C-E1A6-022D-E905-3855F4664CA3">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:47 UTC</createdTime>
+<generatorID>3C925746-E868-320D-B348-4E29566366A7</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D790D007-EEF4-520F-6B9C-292B159C7146" referredColumn="03983EEA-EEEF-924F-596E-A1D4B5081375"/>
+</associations>
+</Column>
+<Column name="dt_atdmto" id="98B56DF3-5E96-FF61-D8FC-53D003F5B97C">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:47 UTC</createdTime>
+<generatorID>F744929A-92F1-4AC6-0FD5-8CE7587907A8</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_cnta" id="53758534-32F7-7CC9-B097-3DE536B50130">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 17:11:00 UTC</createdTime>
+<generatorID>FA7EDD17-39DD-6928-6EA2-847EEE47944A</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EF09A138-A1B4-2FC1-2C63-AC33B994A1C7" name="T_SPT_PK">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:47 UTC</createdTime>
+<generatorID>5DA520E2-6A3F-E589-AEB6-6E4588E67041</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2911AB6-E934-6DD6-EDC3-999092B62796"/>
+<colUsage columnID="AAB0F315-9741-38BA-AB5B-82E1471A0F70"/>
+<colUsage columnID="DE07B83C-E1A6-022D-E905-3855F4664CA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6047A4E7-71A6-22CB-1071-F83D02FD2E20" name="T_SPT__IDX">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:48 UTC</createdTime>
+<ownerDesignName>Fintech</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>653CCE3C-A2DB-DF6F-FFE6-AD8065C1978F</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="AAB0F315-9741-38BA-AB5B-82E1471A0F70"/>
+<colUsage columnID="DE07B83C-E1A6-022D-E905-3855F4664CA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4BF8771F-EFB2-5574-57FF-FE25F7AD4FC2" name="T_FNC_SPT_T_FNC_BNC_FK">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:48 UTC</createdTime>
+<generatorID>653CCE3C-A2DB-DF6F-FFE6-AD8065C1978F</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AAB0F315-9741-38BA-AB5B-82E1471A0F70"/>
+<colUsage columnID="DE07B83C-E1A6-022D-E905-3855F4664CA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

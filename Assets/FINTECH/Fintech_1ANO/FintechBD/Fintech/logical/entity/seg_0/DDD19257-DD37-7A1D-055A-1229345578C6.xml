@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DDD19257-DD37-7A1D-055A-1229345578C6" name="T_BNC">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-01 01:55:40 UTC</createdTime>
+<ownerDesignName>Fintech</ownerDesignName>
+<engineerTo>
+<item key="C651BE54-F97D-7840-F6CD-02B8EDB4CDFF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>BANCO</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_bnc" id="B1D01B92-C949-ABDC-511A-17D5D0BDC95E">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-01 01:56:01 UTC</createdTime>
+<ownerDesignName>Fintech</ownerDesignName>
+<engineerTo>
+<item key="C651BE54-F97D-7840-F6CD-02B8EDB4CDFF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cpf" id="C7E0ACFC-C565-D672-5961-6D11748CD530">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-01 01:59:34 UTC</createdTime>
+<generatorID>6EABDCE2-8E9E-B4A5-5693-4B4376639E7E</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<engineerTo>
+<item key="C651BE54-F97D-7840-F6CD-02B8EDB4CDFF" value="true"/>
+</engineerTo>
+<referedAttribute>9EB643B0-33A1-A716-11B8-2D39567D4D63</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cnta" id="8E01ECC6-CF0C-0A3B-B018-46ABC6769B8E">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 17:05:29 UTC</createdTime>
+<generatorID>42DCB7B3-D7B1-D826-A123-ED2E70FED158</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<engineerTo>
+<item key="C651BE54-F97D-7840-F6CD-02B8EDB4CDFF" value="true"/>
+</engineerTo>
+<referedAttribute>87DF14E6-EA23-870F-B610-06705DC5EE24</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_bnc" id="CC9DE9D0-F177-8976-86A6-DFD3211DF50C">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-01 01:56:12 UTC</createdTime>
+<ownerDesignName>Fintech</ownerDesignName>
+<engineerTo>
+<item key="C651BE54-F97D-7840-F6CD-02B8EDB4CDFF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_tipo_cnta" id="4E41CEA5-8394-D52B-7F8C-06C67A3ABB16">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-01 02:08:43 UTC</createdTime>
+<ownerDesignName>Fintech</ownerDesignName>
+<engineerTo>
+<item key="C651BE54-F97D-7840-F6CD-02B8EDB4CDFF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="25E58948-A5B5-71F7-98DB-6E1CCFEBEDAF" name="T_BNC PK">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-01 01:56:07 UTC</createdTime>
+<ownerDesignName>Fintech</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C651BE54-F97D-7840-F6CD-02B8EDB4CDFF" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>B1D01B92-C949-ABDC-511A-17D5D0BDC95E,6EABDCE2-8E9E-B4A5-5693-4B4376639E7E,42DCB7B3-D7B1-D826-A123-ED2E70FED158</newElementsIDs>
+<usedAttributes>
+<attributeRef>B1D01B92-C949-ABDC-511A-17D5D0BDC95E</attributeRef>
+<attributeRef>C7E0ACFC-C565-D672-5961-6D11748CD530</attributeRef>
+<attributeRef>8E01ECC6-CF0C-0A3B-B018-46ABC6769B8E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

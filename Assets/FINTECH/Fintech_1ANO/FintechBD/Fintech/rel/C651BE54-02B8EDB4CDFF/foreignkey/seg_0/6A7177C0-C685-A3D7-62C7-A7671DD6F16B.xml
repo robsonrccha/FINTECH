@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6A7177C0-C685-A3D7-62C7-A7671DD6F16B" containerWithKeyObject="E1F015B6-83C8-E1DE-0FDA-E96DE2A6B8C8" localFKIndex="C5B1E8A1-03FB-C9D5-B750-03487FF0DC38" name="T_LCMT_FKv1">
+<createdBy>robso</createdBy>
+<createdTime>2023-11-02 16:46:48 UTC</createdTime>
+<generatorID>4E816A0B-15BA-21E8-3F27-3D0043B3305D</generatorID>
+<ownerDesignName>Fintech</ownerDesignName>
+<referredTableLongName>T_LCMT</referredTableLongName>
+<arc>95336F09-38C0-6270-1441-503FE5A69395</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>47720106-0B98-00E4-0B33-4CDA1FA20245</referredTableID>
+<keyObject>C21B3645-DCFE-4794-4046-646FC75F766B</keyObject>
+<referredKeyID>C21B3645-DCFE-4794-4046-646FC75F766B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_lcmt</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>2</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
